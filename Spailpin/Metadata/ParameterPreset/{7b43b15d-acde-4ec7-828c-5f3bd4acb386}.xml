@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{7b43b15d-acde-4ec7-828c-5f3bd4acb386}">
+		<property name="name">
+			<value>Carillon</value>
+		</property>
+		<relationship name="folder">
+			<destination>{a6064c5c-5d3d-4266-8fbb-89aa7840758a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{bca02c9a-5669-4ef2-af44-e5ca72968550}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{bca02c9a-5669-4ef2-af44-e5ca72968550}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="isHeld">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
