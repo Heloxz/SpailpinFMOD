@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{eb682b9f-b3e6-44ea-a2f8-e46956f80fca}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>AMB_outside</value>
 		</property>
@@ -8,7 +11,7 @@
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{b9d60697-017e-43d6-9fea-6a3553834c7f}</destination>
+			<destination>{3dbab1e6-af35-4ade-b654-923ba200c4a1}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{32f15b44-3320-49e4-9da8-50e04237ec52}</destination>

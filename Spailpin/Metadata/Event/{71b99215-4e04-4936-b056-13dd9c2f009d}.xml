@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{71b99215-4e04-4936-b056-13dd9c2f009d}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<property name="name">
 			<value>Carillon</value>
 		</property>
@@ -8,7 +11,7 @@
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{b9d60697-017e-43d6-9fea-6a3553834c7f}</destination>
+			<destination>{4bee4ae5-40ad-411a-974b-207b5d9492ea}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{863e18b3-705d-49cb-9692-2c39923d4d35}</destination>
