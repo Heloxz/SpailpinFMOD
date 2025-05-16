@@ -111,14 +111,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{c5fec4fc-d71d-4885-8548-fd1a2eb5f2e4}" />
 	<object class="EventSound" id="{7d033634-c9bd-4b44-8e28-02560975dab6}">
+		<property name="start">
+			<value>1</value>
+		</property>
 		<relationship name="event">
 			<destination>{9594479e-a0fc-4762-a4df-81f41cede3ae}</destination>
 		</relationship>
 	</object>
 	<object class="EventSound" id="{5c02dc42-5d7c-4080-9ea6-96bd0ed4bd0a}">
-		<property name="start">
-			<value>1</value>
-		</property>
 		<relationship name="event">
 			<destination>{97f1c357-0ed1-430a-96a6-9b163790ae56}</destination>
 		</relationship>
