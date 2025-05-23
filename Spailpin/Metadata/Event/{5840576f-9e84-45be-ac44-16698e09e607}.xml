@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{5840576f-9e84-45be-ac44-16698e09e607}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="name">
 			<value>BathroomTheme</value>
 		</property>
@@ -30,6 +33,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{190bbcde-5bef-4166-a73c-b04ff0751fcb}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{f980281a-4b9c-46c0-936d-65d6339e0864}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{2739e262-4392-43e0-b586-cf9b8e22b82a}">

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Workspace" id="{0b9b139a-1e77-47e8-86e9-db227fa7296a}">
 		<property name="builtBanksOutputDirectory">
-			<value>../../GitHub/Spailpin/Assets/FMODBanks/Desktop</value>
+			<value>../../../GitHub/Spailpin/Assets/FMODBanks</value>
 		</property>
 		<relationship name="masterEventFolder">
 			<destination>{b9d60697-017e-43d6-9fea-6a3553834c7f}</destination>

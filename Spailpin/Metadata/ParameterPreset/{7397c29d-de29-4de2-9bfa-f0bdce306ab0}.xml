@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{7397c29d-de29-4de2-9bfa-f0bdce306ab0}">
+		<property name="name">
+			<value>House</value>
+		</property>
+		<relationship name="folder">
+			<destination>{a6064c5c-5d3d-4266-8fbb-89aa7840758a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b4783b3e-01f4-4d11-8463-d295a1119629}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b4783b3e-01f4-4d11-8463-d295a1119629}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{ee0925a1-4572-4015-8ec4-d1027476025f}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{ee0925a1-4572-4015-8ec4-d1027476025f}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.29999998211860657</value>
+		</property>
+		<property name="speedDescending">
+			<value>0.41999998688697815</value>
+		</property>
+	</object>
+</objects>
