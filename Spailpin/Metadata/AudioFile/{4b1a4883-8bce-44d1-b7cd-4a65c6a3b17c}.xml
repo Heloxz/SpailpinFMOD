@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{4b1a4883-8bce-44d1-b7cd-4a65c6a3b17c}">
+		<property name="assetPath">
+			<value>FS_Gravel/FS_Gravel-006.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.9629375</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{481ea9a1-1d5e-4904-aa06-2c08573c6bca}</destination>
+		</relationship>
+	</object>
+</objects>

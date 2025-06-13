@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{fa34157b-bd51-4953-a0f7-63791c17d91a}">
+		<property name="assetPath">
+			<value>Garden/Garden_Balance_Squeak-003.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.31552083333333331</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{481ea9a1-1d5e-4904-aa06-2c08573c6bca}</destination>
+		</relationship>
+	</object>
+</objects>

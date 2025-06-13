@@ -93,8 +93,11 @@
 	<object class="MixerBusPanner" id="{828b82e2-9da3-43cf-99b1-a7bc532fedfc}" />
 	<object class="MultiSound" id="{19147f2d-07d9-4ac7-8fc2-a7f85d5683b5}">
 		<property name="length">
-			<value>3.2606354166666667</value>
+			<value>1.9000000000000001</value>
 		</property>
+		<relationship name="fadeOutCurve">
+			<destination>{1f7ede87-4aca-41f8-95cd-d9e61498e786}</destination>
+		</relationship>
 		<relationship name="sounds">
 			<destination>{e0915969-a165-4305-8318-8a67ee9d743e}</destination>
 			<destination>{44611fe4-52fd-4b68-bc6b-64c4f504f9f8}</destination>
@@ -122,6 +125,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{418e76c3-8853-4863-a81b-6949a02996ac}" />
 	<object class="MixerBusFader" id="{cf7fe83f-2bdd-4ff4-813e-beaf26c72275}" />
+	<object class="FadeCurve" id="{1f7ede87-4aca-41f8-95cd-d9e61498e786}">
+		<relationship name="startPoint">
+			<destination>{5161d6f3-a4b0-4806-84e8-9bbd401fe5c8}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{85855a15-1afe-4c1e-99c4-e403d08957ad}</destination>
+		</relationship>
+	</object>
 	<object class="SingleSound" id="{e0915969-a165-4305-8318-8a67ee9d743e}">
 		<relationship name="audioFile">
 			<destination>{d764559b-c86e-493c-ba5c-e1a04b990e0a}</destination>
@@ -145,6 +156,25 @@
 	</object>
 	<object class="MixerBusPanner" id="{81a4ea81-2fc0-4335-a645-4c5f6765abf9}" />
 	<object class="MixerBusFader" id="{8d1de331-55c7-49f6-ab64-59ae83f0f4e6}" />
+	<object class="AutomationPoint" id="{5161d6f3-a4b0-4806-84e8-9bbd401fe5c8}">
+		<property name="position">
+			<value>1.5000000000000002</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+		<property name="curveShape">
+			<value>0.25471893</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{85855a15-1afe-4c1e-99c4-e403d08957ad}">
+		<property name="position">
+			<value>1.9000000000000001</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{54bd1ee8-834d-4b53-ac08-1d1f90ff70e0}" />
 	<object class="SFXReverbEffect" id="{fc91da6f-fea8-4a97-b6b1-65dac411f1d3}">
 		<property name="wetLevel">

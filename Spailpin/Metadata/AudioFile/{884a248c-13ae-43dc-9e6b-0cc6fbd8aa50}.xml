@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{884a248c-13ae-43dc-9e6b-0cc6fbd8aa50}">
+		<property name="assetPath">
+			<value>GreenHouse/GreenHouse_WaterDrip-003.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.4746041666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{481ea9a1-1d5e-4904-aa06-2c08573c6bca}</destination>
+		</relationship>
+	</object>
+</objects>

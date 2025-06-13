@@ -8,7 +8,7 @@
 			<value>Exterior</value>
 		</property>
 		<property name="outputFormat">
-			<value>5</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{3dbab1e6-af35-4ade-b654-923ba200c4a1}</destination>
@@ -129,8 +129,8 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{92b499c8-5a25-410a-8155-0dfd56815fe8}">
-		<property name="volume">
-			<value>-8</value>
+		<property name="overridingInputFormat">
+			<value>1</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{f8073aba-3441-4d76-a4c8-89251d1928b7}</destination>
@@ -229,13 +229,16 @@
 			<value>2</value>
 		</property>
 		<property name="maximumScatterDistance">
-			<value>5</value>
+			<value>10</value>
 		</property>
 		<relationship name="sound">
 			<destination>{0dd85840-043c-4440-a34d-3569756484b8}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{b677add0-a3bd-4318-b36f-d81864db9235}">
+		<property name="overridingInputFormat">
+			<value>1</value>
+		</property>
 		<property name="name">
 			<value>Audio 4</value>
 		</property>
@@ -263,13 +266,16 @@
 			<value>2</value>
 		</property>
 		<property name="maximumScatterDistance">
-			<value>5</value>
+			<value>10</value>
 		</property>
 		<relationship name="sound">
 			<destination>{8d517a94-9cb6-48b6-8166-bd839fa4dd54}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{34d27841-104d-467c-a3fb-38f75ffc4dee}">
+		<property name="overridingInputFormat">
+			<value>1</value>
+		</property>
 		<property name="name">
 			<value>Audio 5</value>
 		</property>
@@ -300,6 +306,7 @@
 	<object class="MixerBusEffectChain" id="{f8073aba-3441-4d76-a4c8-89251d1928b7}">
 		<relationship name="effects">
 			<destination>{2b4a4c52-ad34-415e-b50f-21946b689cb2}</destination>
+			<destination>{fa116308-fc21-4d96-8edc-9686fdf79613}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e795b308-59a2-451a-8f2f-d329b71b6d57}" />
@@ -362,6 +369,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{1586bb4d-d6e5-4428-ae17-168b4933c7ae}" />
 	<object class="MixerBusFader" id="{2b4a4c52-ad34-415e-b50f-21946b689cb2}" />
+	<object class="LoudnessMeter" id="{fa116308-fc21-4d96-8edc-9686fdf79613}" />
 	<object class="MixerBusFader" id="{2bf7b55c-60db-4a95-b467-eafc9329555b}" />
 	<object class="MixerBusFader" id="{db3bc082-c990-4de1-b276-485ff8dab636}" />
 	<object class="MixerBusFader" id="{f29e1ca6-cbe3-48c3-b67c-5f2b8b3e76df}" />

@@ -67,7 +67,6 @@
 	<object class="GroupTrack" id="{e6a6bd25-332a-43d3-afab-94a810af1a3f}">
 		<relationship name="modules">
 			<destination>{46ee7be4-7ae4-480e-97d6-9bd0afd9c122}</destination>
-			<destination>{7e154f7b-97d7-495c-affe-4c78b3b88c68}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{2c95a66e-f903-482e-9faf-6423045402a4}</destination>
@@ -79,9 +78,6 @@
 		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{367ceaf1-f2fa-4adc-b5bd-ed211bad7c9b}">
-		<relationship name="modules">
-			<destination>{7e154f7b-97d7-495c-affe-4c78b3b88c68}</destination>
-		</relationship>
 		<relationship name="preset">
 			<destination>{aea810c5-538c-4293-809c-a0d9568d7376}</destination>
 		</relationship>
@@ -109,11 +105,6 @@
 		</property>
 		<relationship name="audioFile">
 			<destination>{8e4f9c7c-1214-4595-be79-af781db9c3ab}</destination>
-		</relationship>
-	</object>
-	<object class="SnapshotModule" id="{7e154f7b-97d7-495c-affe-4c78b3b88c68}">
-		<relationship name="event">
-			<destination>{333ceaf2-b304-4148-823c-61cd80307dae}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{2c95a66e-f903-482e-9faf-6423045402a4}">
