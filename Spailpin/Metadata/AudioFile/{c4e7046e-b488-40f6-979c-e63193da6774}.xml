@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{1d82bdc3-e3f5-4483-8858-3c8f7b10be2b}">
+	<object class="AudioFile" id="{c4e7046e-b488-40f6-979c-e63193da6774}">
 		<property name="assetPath">
-			<value>AudreyRoom/AudreyRoom_Plant.wav</value>
+			<value>AudreyRoom/AudreyRoom_Plant-004.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
@@ -14,7 +14,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>13.476197916666667</value>
+			<value>13.962208333333333</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{481ea9a1-1d5e-4904-aa06-2c08573c6bca}</destination>
