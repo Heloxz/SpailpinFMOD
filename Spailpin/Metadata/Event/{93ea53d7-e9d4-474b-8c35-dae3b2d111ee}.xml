@@ -131,13 +131,16 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{e0f3caea-008d-487c-bd8a-aa520aa27630}">
+		<property name="volume">
+			<value>-5.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{7cc2e498-4327-42d7-9d36-31af3f0d4422}</destination>
 		</relationship>
 	</object>
 	<object class="PlayPercentage" id="{d8b7dc79-7400-4c67-8cf8-118e9ce0f23e}">
 		<property name="percentage">
-			<value>80</value>
+			<value>90</value>
 		</property>
 		<relationship name="sound">
 			<destination>{a97e031d-bd84-400e-80fb-678d01c624ea}</destination>
@@ -145,7 +148,7 @@
 	</object>
 	<object class="PlayPercentage" id="{4ed00e12-a8dc-4992-89c7-4aae456dda54}">
 		<property name="percentage">
-			<value>20</value>
+			<value>10</value>
 		</property>
 		<relationship name="sound">
 			<destination>{e0f3caea-008d-487c-bd8a-aa520aa27630}</destination>
@@ -154,9 +157,15 @@
 	<object class="MixerBusEffectChain" id="{32a76762-f211-4069-800b-37354baf4f17}">
 		<relationship name="effects">
 			<destination>{288c7882-bca0-4656-bf0f-23964a00ab83}</destination>
+			<destination>{1d20679e-56c7-4215-9932-b2ed99495aa0}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{913a9eb6-df54-4fd2-8768-2f88e0ef7db9}" />
 	<object class="MixerBusFader" id="{7181b6b3-3163-4f02-8c2f-dd2c1c906e5b}" />
 	<object class="MixerBusFader" id="{288c7882-bca0-4656-bf0f-23964a00ab83}" />
+	<object class="SFXReverbEffect" id="{1d20679e-56c7-4215-9932-b2ed99495aa0}">
+		<property name="wetLevel">
+			<value>-13</value>
+		</property>
+	</object>
 </objects>

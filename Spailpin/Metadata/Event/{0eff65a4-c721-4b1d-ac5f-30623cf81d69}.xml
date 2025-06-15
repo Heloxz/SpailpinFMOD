@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{0eff65a4-c721-4b1d-ac5f-30623cf81d69}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>House</value>
 		</property>
@@ -155,7 +158,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{27c313ce-6851-4f05-b372-0fbf2218ad05}">
 		<property name="volume">
-			<value>-10</value>
+			<value>-17.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -333,10 +336,10 @@
 			<value>110.19773958333333</value>
 		</property>
 		<property name="minimumTimeBetweenSounds">
-			<value>9500</value>
+			<value>20000</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
-			<value>26000</value>
+			<value>60000</value>
 		</property>
 		<property name="maximumScatterDistance">
 			<value>15</value>
@@ -376,6 +379,7 @@
 	<object class="MixerBusEffectChain" id="{490b6354-ed05-485c-bf81-7cd58ffad14e}">
 		<relationship name="effects">
 			<destination>{06a8417a-c238-48e8-8fdd-0195694837b3}</destination>
+			<destination>{d135f918-b838-445a-b1fc-afd282d09def}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ac735948-cf54-4db2-9848-f98a2f88b9a6}" />
@@ -383,6 +387,9 @@
 	<object class="MixerBusEffectChain" id="{764afc43-9fd7-4de0-be5d-15326ab6fe5d}">
 		<relationship name="effects">
 			<destination>{1fd51408-ffd9-45f6-bd78-59c6ebd595d1}</destination>
+			<destination>{1a5bdbff-b872-4dbc-ba39-103da68ff982}</destination>
+			<destination>{5d1b3d7d-3d50-4ba1-be46-634020f7233b}</destination>
+			<destination>{a325c761-ef17-43b1-8f0a-f237172448ec}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6f18c4eb-49f1-4e83-84c3-3f34f47d8460}" />
@@ -492,7 +499,38 @@
 	</object>
 	<object class="MixerBusPanner" id="{e7432749-9fac-4754-b815-6baeb6d076d1}" />
 	<object class="MixerBusFader" id="{06a8417a-c238-48e8-8fdd-0195694837b3}" />
+	<object class="LoudnessMeter" id="{d135f918-b838-445a-b1fc-afd282d09def}" />
 	<object class="MixerBusFader" id="{1fd51408-ffd9-45f6-bd78-59c6ebd595d1}" />
+	<object class="PitchShifterEffect" id="{1a5bdbff-b872-4dbc-ba39-103da68ff982}">
+		<property name="pitch">
+			<value>0.799999952</value>
+		</property>
+		<property name="overlap">
+			<value>1</value>
+		</property>
+	</object>
+	<object class="DistortionEffect" id="{5d1b3d7d-3d50-4ba1-be46-634020f7233b}">
+		<property name="level">
+			<value>0.25</value>
+		</property>
+	</object>
+	<object class="SFXReverbEffect" id="{a325c761-ef17-43b1-8f0a-f237172448ec}">
+		<property name="decayTime">
+			<value>10000</value>
+		</property>
+		<property name="lowShelfGain">
+			<value>8</value>
+		</property>
+		<property name="highCut">
+			<value>20000</value>
+		</property>
+		<property name="wetLevel">
+			<value>0</value>
+		</property>
+		<property name="dryLevel">
+			<value>-14</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{992bdf67-83aa-4b85-9fca-386842641cc9}">
 		<relationship name="audioFile">
 			<destination>{4bddb68a-b812-47e1-8172-7f0b1ad0d6f0}</destination>

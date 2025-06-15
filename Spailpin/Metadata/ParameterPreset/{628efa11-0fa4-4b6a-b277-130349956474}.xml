@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{628efa11-0fa4-4b6a-b277-130349956474}">
+		<property name="name">
+			<value>GreenHouse</value>
+		</property>
+		<relationship name="folder">
+			<destination>{a6064c5c-5d3d-4266-8fbb-89aa7840758a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b4c27b1f-e053-4fe1-8601-edf87ead87c0}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b4c27b1f-e053-4fe1-8601-edf87ead87c0}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{79b80f8f-4552-4c5f-9048-e5d995d0ae8e}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{79b80f8f-4552-4c5f-9048-e5d995d0ae8e}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.29999998211860657</value>
+		</property>
+	</object>
+</objects>

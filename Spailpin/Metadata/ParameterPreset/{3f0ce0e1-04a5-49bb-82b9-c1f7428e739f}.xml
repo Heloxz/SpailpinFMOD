@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{3f0ce0e1-04a5-49bb-82b9-c1f7428e739f}">
+		<property name="name">
+			<value>PreRoom</value>
+		</property>
+		<relationship name="folder">
+			<destination>{a6064c5c-5d3d-4266-8fbb-89aa7840758a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{183c88ff-f8f0-4ccf-b1bd-6d8984a2f859}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{183c88ff-f8f0-4ccf-b1bd-6d8984a2f859}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{5bde85fe-e338-4ff5-b153-7c38e6988e92}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{5bde85fe-e338-4ff5-b153-7c38e6988e92}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.29999998211860657</value>
+		</property>
+	</object>
+</objects>

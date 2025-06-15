@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{efe79d84-2b05-45ea-bb61-a7c905cda0a5}">
+		<property name="name">
+			<value>Maze</value>
+		</property>
+		<relationship name="folder">
+			<destination>{a6064c5c-5d3d-4266-8fbb-89aa7840758a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{a6377dcf-08a1-4cba-a637-5c2e9f363ea7}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{a6377dcf-08a1-4cba-a637-5c2e9f363ea7}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{6f2b709c-62f5-4227-ac76-66f1bacbd72a}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{6f2b709c-62f5-4227-ac76-66f1bacbd72a}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.29999998211860657</value>
+		</property>
+	</object>
+</objects>

@@ -158,6 +158,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{af2a7e75-c5a2-4f27-bb12-79af88383067}">
+		<property name="volume">
+			<value>3</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -180,6 +183,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{f4027367-b198-48b5-9481-28ae75ee1b25}">
+		<property name="volume">
+			<value>4</value>
+		</property>
 		<property name="name">
 			<value>Audio 2</value>
 		</property>
@@ -229,13 +235,16 @@
 			<value>2</value>
 		</property>
 		<property name="maximumScatterDistance">
-			<value>10</value>
+			<value>5</value>
 		</property>
 		<relationship name="sound">
 			<destination>{0dd85840-043c-4440-a34d-3569756484b8}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{b677add0-a3bd-4318-b36f-d81864db9235}">
+		<property name="volume">
+			<value>4</value>
+		</property>
 		<property name="overridingInputFormat">
 			<value>1</value>
 		</property>
@@ -266,13 +275,16 @@
 			<value>2</value>
 		</property>
 		<property name="maximumScatterDistance">
-			<value>10</value>
+			<value>5</value>
 		</property>
 		<relationship name="sound">
 			<destination>{8d517a94-9cb6-48b6-8166-bd839fa4dd54}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{34d27841-104d-467c-a3fb-38f75ffc4dee}">
+		<property name="volume">
+			<value>4</value>
+		</property>
 		<property name="overridingInputFormat">
 			<value>1</value>
 		</property>
