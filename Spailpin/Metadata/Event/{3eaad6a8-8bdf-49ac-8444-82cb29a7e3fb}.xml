@@ -494,6 +494,9 @@
 		<property name="commandType">
 			<value>3</value>
 		</property>
+		<property name="targetValue">
+			<value>70</value>
+		</property>
 		<relationship name="commandTarget">
 			<destination>{b4783b3e-01f4-4d11-8463-d295a1119629}</destination>
 		</relationship>
