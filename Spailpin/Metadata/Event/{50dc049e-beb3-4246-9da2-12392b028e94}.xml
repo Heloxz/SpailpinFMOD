@@ -5,7 +5,7 @@
 			<value>Red</value>
 		</property>
 		<property name="name">
-			<value>GardenTheme</value>
+			<value>LivingRoom</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -63,7 +63,7 @@
 	<object class="MarkerTrack" id="{1f6db611-62fe-40cf-b428-a523b8f260fe}" />
 	<object class="GroupTrack" id="{2eb5e5b2-159d-42a5-a455-7e4cfe74ac6d}">
 		<relationship name="modules">
-			<destination>{2074f28f-c2e6-48b6-9817-a621f22f7ab2}</destination>
+			<destination>{dfc75765-07fc-4205-9284-c2392f705e02}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{9461d364-a556-4013-84f0-74dc2a4db6d9}</destination>
@@ -71,7 +71,7 @@
 	</object>
 	<object class="Timeline" id="{1ac57bf3-4a82-4481-9bef-5def8b947c2b}">
 		<relationship name="modules">
-			<destination>{2074f28f-c2e6-48b6-9817-a621f22f7ab2}</destination>
+			<destination>{dfc75765-07fc-4205-9284-c2392f705e02}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{dd132383-d379-45ef-8d60-c66f548ab191}">
@@ -91,15 +91,18 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a043fcde-ae4d-48ec-88cf-353dc6044fd9}" />
-	<object class="SingleSound" id="{2074f28f-c2e6-48b6-9817-a621f22f7ab2}">
+	<object class="SingleSound" id="{dfc75765-07fc-4205-9284-c2392f705e02}">
 		<property name="length">
-			<value>29.199999999999999</value>
+			<value>12.618645833333334</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{8b0ac5e3-8621-41ef-86af-576bffcbe108}</destination>
+			<destination>{df230d50-57ac-4a07-a594-e35f4ceb9ba5}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{9461d364-a556-4013-84f0-74dc2a4db6d9}">
+		<property name="volume">
+			<value>-6</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
