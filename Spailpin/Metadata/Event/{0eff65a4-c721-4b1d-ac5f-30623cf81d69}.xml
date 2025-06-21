@@ -378,6 +378,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{490b6354-ed05-485c-bf81-7cd58ffad14e}">
 		<relationship name="effects">
+			<destination>{376b755a-8946-4926-b1bb-831d7b706682}</destination>
 			<destination>{06a8417a-c238-48e8-8fdd-0195694837b3}</destination>
 			<destination>{d135f918-b838-445a-b1fc-afd282d09def}</destination>
 		</relationship>
@@ -498,6 +499,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e7432749-9fac-4754-b815-6baeb6d076d1}" />
+	<object class="ThreeEQEffect" id="{376b755a-8946-4926-b1bb-831d7b706682}">
+		<property name="highGain">
+			<value>2</value>
+		</property>
+		<property name="highCrossover">
+			<value>10000</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{06a8417a-c238-48e8-8fdd-0195694837b3}" />
 	<object class="LoudnessMeter" id="{d135f918-b838-445a-b1fc-afd282d09def}" />
 	<object class="MixerBusFader" id="{1fd51408-ffd9-45f6-bd78-59c6ebd595d1}" />

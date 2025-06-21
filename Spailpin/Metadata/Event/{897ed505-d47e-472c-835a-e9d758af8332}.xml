@@ -184,6 +184,7 @@
 	<object class="MixerBusEffectChain" id="{637f11cd-99eb-48f3-b52d-953aea1ebd56}">
 		<relationship name="effects">
 			<destination>{2004422f-7351-456b-87df-7cb340592c68}</destination>
+			<destination>{0ed09524-2f79-48e8-889b-6fd7b1c1d92a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6ffc00c9-8b3d-4f47-81c9-47427ebda2c4}" />
@@ -211,7 +212,7 @@
 	<object class="SilenceSound" id="{7198b303-2118-4b2b-923e-d1d98de86fc2}" />
 	<object class="PlayPercentage" id="{f0e04606-cff3-4f26-b4ed-228e1f193cc9}">
 		<property name="percentage">
-			<value>12</value>
+			<value>10</value>
 		</property>
 		<relationship name="sound">
 			<destination>{c49d1a03-e692-446c-99a2-63e6e934bab3}</destination>
@@ -219,7 +220,7 @@
 	</object>
 	<object class="PlayPercentage" id="{d65ae896-c76c-4e9b-b27f-815ee86b214f}">
 		<property name="percentage">
-			<value>12</value>
+			<value>10</value>
 		</property>
 		<relationship name="sound">
 			<destination>{c8388be1-3eb2-40d8-9c05-ad80e452f085}</destination>
@@ -227,7 +228,7 @@
 	</object>
 	<object class="PlayPercentage" id="{39e2eac6-8d34-4a93-a77c-58143b39e343}">
 		<property name="percentage">
-			<value>12</value>
+			<value>10</value>
 		</property>
 		<relationship name="sound">
 			<destination>{7fce0616-4156-48c9-ab5e-7a84f047a396}</destination>
@@ -235,7 +236,7 @@
 	</object>
 	<object class="PlayPercentage" id="{aa6890dc-b7d5-4922-b76f-3ec27e294e51}">
 		<property name="percentage">
-			<value>12</value>
+			<value>10</value>
 		</property>
 		<relationship name="sound">
 			<destination>{fdddc436-bd56-41aa-8e27-01ebcf067a4a}</destination>
@@ -280,7 +281,7 @@
 	<object class="SilenceSound" id="{ad46bb87-ac89-4d8e-a7ef-b48308380c62}" />
 	<object class="PlayPercentage" id="{7d3d4c14-31bf-4543-b0e0-c8d39a4bf8e7}">
 		<property name="percentage">
-			<value>8</value>
+			<value>5</value>
 		</property>
 		<relationship name="sound">
 			<destination>{8d62d900-c5dd-4c1f-8e75-c41fc3099de3}</destination>
@@ -288,7 +289,7 @@
 	</object>
 	<object class="PlayPercentage" id="{5f7664e7-295c-41e6-a949-7d82d2be40cb}">
 		<property name="percentage">
-			<value>8</value>
+			<value>5</value>
 		</property>
 		<relationship name="sound">
 			<destination>{893349c5-2fa7-4b20-bfcc-206cc154e345}</destination>
@@ -296,7 +297,7 @@
 	</object>
 	<object class="PlayPercentage" id="{7be0cf4a-17b3-4cd2-b558-6f5baca8199c}">
 		<property name="percentage">
-			<value>8</value>
+			<value>5</value>
 		</property>
 		<relationship name="sound">
 			<destination>{32ecb7d2-4327-425b-8dee-fe677e591c7e}</destination>
@@ -304,7 +305,7 @@
 	</object>
 	<object class="PlayPercentage" id="{5de7569b-49cf-45b5-bcf8-c713a1ba7c6b}">
 		<property name="percentage">
-			<value>8</value>
+			<value>5</value>
 		</property>
 		<relationship name="sound">
 			<destination>{c3ae2504-159e-47bc-9539-33e9af7ec7db}</destination>
@@ -312,7 +313,7 @@
 	</object>
 	<object class="PlayPercentage" id="{39faa883-f819-4e67-9394-e6afde26832e}">
 		<property name="percentage">
-			<value>8</value>
+			<value>5</value>
 		</property>
 		<relationship name="sound">
 			<destination>{ca14396a-05c8-44f4-aaff-285e52bff115}</destination>
@@ -320,7 +321,7 @@
 	</object>
 	<object class="PlayPercentage" id="{9a1d59cb-73b1-4e0c-9797-a04f0bb8a096}">
 		<property name="percentage">
-			<value>8</value>
+			<value>5</value>
 		</property>
 		<relationship name="sound">
 			<destination>{220629a4-2b67-4bbc-a796-c730dbad10a5}</destination>
@@ -333,6 +334,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{da1cbd07-f156-4926-a1c4-4e4fd95f9c56}" />
 	<object class="MixerBusFader" id="{2004422f-7351-456b-87df-7cb340592c68}" />
+	<object class="ThreeEQEffect" id="{0ed09524-2f79-48e8-889b-6fd7b1c1d92a}">
+		<property name="highGain">
+			<value>3</value>
+		</property>
+		<property name="highCrossover">
+			<value>10000</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{feecfda8-8ae5-4fea-a5a6-a4dfd3e238c3}" />
 	<object class="MixerBusFader" id="{9a60032f-094e-4cbb-b3dc-f571d345f760}" />
 </objects>

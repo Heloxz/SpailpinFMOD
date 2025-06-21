@@ -412,6 +412,7 @@
 	<object class="MixerBusEffectChain" id="{f6b37c90-ddda-46b6-bde4-9ee2eb6b26c3}">
 		<relationship name="effects">
 			<destination>{28d2622a-670b-45fc-ba63-9d54215e4d78}</destination>
+			<destination>{3d40838d-f95e-49d4-8717-2d6efde1294d}</destination>
 			<destination>{414368b6-b4e8-43c8-9471-ebab61b7cd8b}</destination>
 		</relationship>
 	</object>
@@ -1085,12 +1086,23 @@
 	</object>
 	<object class="MixerBusPanner" id="{d7a90428-4768-4acc-b487-089dc4c92a55}" />
 	<object class="MixerBusFader" id="{28d2622a-670b-45fc-ba63-9d54215e4d78}" />
+	<object class="ThreeEQEffect" id="{3d40838d-f95e-49d4-8717-2d6efde1294d}">
+		<property name="midGain">
+			<value>2</value>
+		</property>
+		<property name="highGain">
+			<value>2</value>
+		</property>
+		<property name="highCrossover">
+			<value>9000</value>
+		</property>
+	</object>
 	<object class="SpatialiserEffect" id="{414368b6-b4e8-43c8-9471-ebab61b7cd8b}">
 		<property name="maximumDistance">
 			<value>9</value>
 		</property>
 		<property name="panBlend">
-			<value>0.754999995</value>
+			<value>0.75</value>
 		</property>
 		<property name="userStereoSeparation">
 			<value>0</value>
